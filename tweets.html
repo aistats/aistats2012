@@ -1,0 +1,59 @@
+---
+layout: default
+---
+      <div class="contents">
+
+<script type="text/javascript">
+    document.getElementById('LNtweet').id='leftcurrent';
+</script>
+
+<h1>AISTATS*2012 Tweets</h1>
+         <p>
+<!--<b>TBD</b>-->
+           </p>
+
+<!--<h2>Tweets about <a href="http://twitter.com/#!/search/%23aistats2012">#aistats2012</a>:</h2>
+<div id="aistatsTweets"></div>
+-->
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#aistats2012',
+  interval: 30000,
+  title: 'AI &amp; Statistics 2012',
+  subject: 'Tweets about #aistats2012',
+  width: 550,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+
+
+
+
+<p> <a href="https://twitter.com/aistats2012" class="twitter-follow-button" data-show-count="false">Follow @aistats2012</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> &nbsp;
+on Twitter, and tag your tweets with <b>#aistats2012</b>.
+</p>
+
+      </div>
+
