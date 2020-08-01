@@ -30,11 +30,11 @@ conference:
   logo: logo.jpg
   hide_tentative: true
   proceedings:
-    url: http://proceedings.mlr.press/v15/
+    url: http://proceedings.mlr.press/v22/
     show: true
   room: Room
-  venue: Hyatt Regency Pier 66
-  venue_url: https://www.pier66hotelmarina.com/
+  venue: H10 Taburiente Playa
+  venue_url: https://www.h10hotels.com/en/la-palma-hotels/h10-taburiente-playa
   location: La Palma, Canary Islands
   full_name: Artificial Intelligence and Statistics
   name: AISTATS
