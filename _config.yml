@@ -6,28 +6,30 @@ description: > # this means to ignore newlines until "baseurl:"
   This is the website of the AISTATS conference.
 baseurl: "/aistats2012" # the subpath of your site, e.g. /blog/
 url: "http://www.aistats.org" # the base hostname & protocol for your site
-#twitter_username: aistat
+twitter_username: aistats2012
 github_username:  aistats
 
 author:
   name: AISTATS
 comments: false
 plugins:
+- jekyll-feed
+- jekyll-seo-tag
 - jekyll-remote-theme
 remote_theme: lawrennd/proceedings
+style: aistats
 
 ghub:
   edit: true
   repository: aistats2012
-banner:
-  image: resort.jpg
+banner: resort.jpg
 
 # Build settings
 markdown: kramdown
 
 conference:
   draft: false # set to True if the programme is draft only.
-  logo: logo.jpg
+  image: vistamirador_small.jpg
   hide_tentative: true
   proceedings:
     url: http://proceedings.mlr.press/v22/
@@ -37,14 +39,55 @@ conference:
   venue_url: https://www.h10hotels.com/en/la-palma-hotels/h10-taburiente-playa
   location: La Palma, Canary Islands
   full_name: Artificial Intelligence and Statistics
-  name: AISTATS
+  short_name: AISTATS
+  name: Artificial Intelligence and Statistics
   year: 2012
   instance: 15th
   styling: International Conference on
   dates:
   - 2012-04-21
   - 2012-04-23
+  chairs:
+  - type: General Chair
+    people:
+    - family: Bernhard
+      given: Sch&ouml;lkopf
+      institute: Max Planck Institute, T&uuml;bingen, Germany
+      url: http://www.kyb.mpg.de/nc/employee/details/bs.html
+  - type: Local Arrangements Chair
+    people:
+    - family: P&eacute;rez Cruz
+      given: Fernando
+      institute: University Carlos III, Madrid, Spain
+      url: http://www.tsc.uc3m.es/~fernando/
+  - type: Programme Chairs
+    people:
+    - family: Girolami
+      given: Mark
+      institute: Department of Statistical Science, University College London, U.K.
+      url: http://www.ucl.ac.uk/statistics/people/markgirolami
+    - family: Lawrence
+      given: Neil D.
+      url: http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/
+      institute: University of Sheffield, U.K.
+  - type: Fundraising Chair
+    people:
+    - family: Sra
+      given: Suvrit
+      institute: Max Planck Institute, T&uuml;bingen
+  - type: Publicity Chair
+    people:
+    - family: Zhang
+      given: Kun
+      institute: Max Planck Institute, T&uuml;bingen
+  - type: Publications Chair
+    people:
+    - family: Fusi
+      given: Nicol&ograve
+      url: University of Sheffield
+      
 
+  
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 

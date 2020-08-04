@@ -3,17 +3,15 @@ title: Committees
 layout: default
 ---
 
+<h1>AISTATS*2012 Organizing Committees</h1>
 
-         <h1>AISTATS*2012 Organizing Committees</h1>
-<b>General Chair:</b> Bernhard Sch&ouml;lkopf,&nbsp;<i>Max Planck Institute, T&uuml;bingen</i><br>
-<b>Program Chairs:</b> Mark Girolami, &nbsp;<i>University College London</i>, &nbsp;Neil Lawrence, &nbsp;<i>University of Sheffield</i><br>
-<b>Local Arrangements Chair:</b> Fernando P&eacute;rez Cruz, University Carlos III, Madrid, Spain<br>
-<b>Fundraising Chair:</b> Suvrit Sra, &nbsp;<i>Max Planck Institute, T&uuml;bingen</i><br>
-<b>Publicity Chair:</b> Kun Zhang, &nbsp;<i>Max Planck Institute, T&uuml;bingen</i><br>
-<b>Publications Chair:</b> Nicol&ograve; Fusi, &nbsp;<i>University of Sheffield</i><br>
+{% if site.conference.chairs %}
+{% for chair in site.conference.chairs %}
+{% include listchairs.html %}
+{% endfor %}
+{% endif %}
 
-<br>
-<b>Senior Program Committee</b>
+<h3>Senior Program Committee</h3>
 <ul>
 <li>Ryan P. Adams,	&nbsp;<i>Harvard University</i></li>
 <li>Edo Airoldi,        &nbsp;<i>Harvard University</i></li>
