@@ -34,7 +34,7 @@ conference:
   proceedings:
     url: http://proceedings.mlr.press/v22/
     show: true
-  room: Room
+  room: 
   venue: H10 Taburiente Playa
   venue_url: https://www.h10hotels.com/en/la-palma-hotels/h10-taburiente-playa
   location: La Palma, Canary Islands
