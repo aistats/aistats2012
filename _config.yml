@@ -50,8 +50,8 @@ conference:
   chairs:
   - type: General Chair
     people:
-    - family: Bernhard
-      given: Sch&ouml;lkopf
+    - given: Bernhard
+      family: Sch&ouml;lkopf
       institute: Max Planck Institute, T&uuml;bingen, Germany
       url: http://www.kyb.mpg.de/nc/employee/details/bs.html
   - type: Local Arrangements Chair
